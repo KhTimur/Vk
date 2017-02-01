@@ -28,4 +28,4 @@ script:
   - mkdir build && cd build
   - cmake .. -DOPENSSL_ROOT_DIR=/usr/local/ssl -DOPENSSL_LIBRARIES=/usr/local/ssl/lib && make
   # Можно выполнять только на одной ОС
-  #- ./check -s -r compact
+  #- ./check -s -r compact 
